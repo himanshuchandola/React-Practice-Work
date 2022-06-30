@@ -22,3 +22,8 @@ Copy paste the below content in the file
 /*    /index.html   200  
 
 </details>
+
+# Foodies HTMl Website to React SPA
+
+In this Task i have converted HTML website to React Single Page Application.
+https://stirring-panda-2dcc1e.netlify.app/
