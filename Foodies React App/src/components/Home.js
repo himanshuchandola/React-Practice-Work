@@ -1,8 +1,12 @@
 import React from 'react'
 
+
+
 export default function Home() {
   return (
     <>
+   
+ 
     <section id="home">
     <div class="container-fluid px-0 top-banner">
       <div class="container">
@@ -20,6 +24,7 @@ export default function Home() {
       </div>
     </div>
   </section>
+
     </>
   )
 }

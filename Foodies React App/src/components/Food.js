@@ -1,5 +1,6 @@
 /* import React, { useState } from 'react' */
 import Cards from './Cards'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 const cardData = [
     {title:'Rainbow Vegetable Sandwich ',desc:'Time: 15 - 20 Minutes | Serves: 1',price:'$22.00',img:'/images/img/img-3.jpg'},
     {title:'Salad with fish<',desc:'Delicious dish',price:'$12.00',img:'/images/img/img-4.jpg'},
@@ -13,6 +14,7 @@ export default function Food() {
     /* const[menuData , setMenuData] = useState(''); */
   return (
     <>
+     <AnimationOnScroll animateIn="animate__backInLeft delay 20" initiallyVisible={true}>
    <section id="explore-food">
      <div className="explore-food wrapper">
        <div className="container">
@@ -32,6 +34,7 @@ export default function Food() {
        </div>
      </div>
    </section>
+   </AnimationOnScroll>
     </>
   )
 }
